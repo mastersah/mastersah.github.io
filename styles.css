@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "montserrat";
+    src: url("public/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: "open-sans";
+    src: url("public/fonts/OpenSans-Regular.ttf");
+}
+*,body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #ffffff;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.navbar li{
+    display: block;
+    width: 16vw;
+    height: auto;
+    text-align: center;
+    line-height:10vh;
+    background-color: #ffffff;
+    font-family: "montserrat";
+    font-size: 3.8vh;
+    font-weight: 800;
+}
+.navbar li:hover{
+    transition: all 500ms ease;
+    color:#1f3cca;
+}
+
+.visiting{
+    color:#1f3cca;
+}
+.side{
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 25vw;
+    height: 100%;
+    background-color: #e6e4e4;
+    display: flex;
+}
+.side-content{
+    background-color: #ffffff;
+    height:80vh;
+    width: 24vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.side-content:hover{
+    box-shadow:0px 0px 2.2px rgba(0, 0, 0, 0.112);
+}
+#profile{
+    height: 10vw;
+    border-radius: 50%;
+    /* position: absolute;
+    top: 15vh;
+    left: 7vw; */
+    margin: auto;
+}
+#profile-name{
+    /* position: absolute;
+    top: 15vh;
+    left: 7vw; */
+    color: rgb(83, 81, 81);
+    font-size: large;
+    margin: auto;
+    margin-top: -2%;
+    font-family: 'montserrat';
+    font-weight: 1000;
+    font-size: larger;
+}
+#short-descp{
+    margin: auto;
+    font-family: "montserrat";
+}
+
+#contact{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+#contact li{
+    list-style: none;
+    display: block;
+    margin: auto;
+}
+
+#contact li a img{
+    height: 4vh;
+    width: 5vw;
+}
+#contact li a img:hover{
+    filter: invert(17%) sepia(100%) saturate(3216%) hue-rotate(231deg) brightness(82%) contrast(94%);
+}
+.main{
+    position: absolute;
+    top: 10vh;
+    left: 25vw;
+    height: 100%;
+    width: 75vw;
+    background-color: #e6e4e4;
+    font-family: "open-sans";
+    display: flex;
+}
+.visible:hover{
+    box-shadow:0px 0px 2.2px rgba(0, 0, 0, 0.112);
+}
+.hidden{
+   display: none;
+}
+
+.visible{
+    width: 70vw;
+    height: 80vh;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+#home{
+    height: auto;
+    padding:2vw 2vw;
+}
+#home div{
+    font-family: 'montserrat';
+    font-size: large;
+    font-weight: 600;
+    color: rgb(83, 81, 81);
+}
+#courses{
+    height: auto;
+    padding:2vw 2vw;
+}
+#courses ul li{
+    padding-left: 2vw;
+}
+#awards{
+    
+    height: auto;
+    padding:2vw 2vw;
+}
+#publications{
+    margin-top: 2vh;
+    height: auto;
+    padding:2vw 2vw;
+}
